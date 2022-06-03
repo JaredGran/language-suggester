@@ -3,9 +3,15 @@ $(document).ready(function() {
     event.preventDefault();
     const yes = parseInt(5)
     const no = parseInt(0)
-    const = $yes ("yes").val();
-    const = $no ("no").val();
     const result =add(yes + no)
-  
+    if (result<= 10) {
+      $('#under10').show();
+    }
+    else if (result === 15) {
+      $('#e15').show();
+    }
+    else (result >= 20) {
+      $('#20').show();
+    }
   });
 });
