@@ -1,24 +1,10 @@
-
-let yes = parseInt(5)
-let no = parseInt(0)
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(document).ready(function() {
   $("form#language").submit(function(event) {
     event.preventDefault();
-    const  = $("input#yes").val();
-   
+    const yes = parseInt(5)
+    const no = parseInt(0)
+    const = $yes ("input#yes").val();
+    const = $no ("imput#no").val();
 
   
   });
