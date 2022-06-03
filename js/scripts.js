@@ -5,7 +5,7 @@ $(document).ready(function() {
     const no = parseInt(0)
     const = $yes ("input#yes").val();
     const = $no ("imput#no").val();
-    const result = add(number1, );
+    const result =
   
   });
 });
