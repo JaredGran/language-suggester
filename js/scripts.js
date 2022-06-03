@@ -3,9 +3,9 @@ $(document).ready(function() {
     event.preventDefault();
     const yes = parseInt(5)
     const no = parseInt(0)
-    const = $yes ("input#yes").val();
-    const = $no ("imput#no").val();
-    const result =
+    const = $yes ("yes").val();
+    const = $no ("no").val();
+    const result =add(yes + no)
   
   });
 });
