@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     const  = $("input#yes").val();
     const  = $("imput#no").val();
-  
+
   
   
   });
