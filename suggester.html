@@ -12,48 +12,25 @@
 </head>
 <body>
   <div class="container">
-    <p>Do you like small dogs?</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="Yes1" value="Yes" checked>
-          Yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="No1" value= "No">
-          No
-        </label>
-      </div>
-    
+    <form id="formlanguage">
+      <p>Do you like small dogs?</p>
+      <select class="form-control" id="question">
+        <option>yes</option>
+        <option>no</option>
+      </select>
       <p>Do you enjoy watching movies?</p>
-    <div class="radio">
-      <label>
-        <input type="radio" name="Yes2" value="Yes" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="No2" value="No">
-        No
-      </label>
-    </div>
-  
-    <p>Do you like pop muisic?</p>
-    <div class="radio">
-      <label>
-        <input type="radio" name="Yes3" value="Yes" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="No3" value="No">
-        No
-      </label>
-    </div>
+      <select class="form-control" id="question">
+        <option>yes</option>
+        <option>no</option>
+      </select>
 
-    <button type="submit" class="btn">submit answers</button>
-</body>
+      <p>Do you like pop muisic?</p>
+      <select class="form-control" id="question">
+        <option>yes</option>
+        <option>no</option>
+      </select>
+
+      <button type="submit" class="btn">submit answers</button>
+    </form>
+    </body>
 </html>
