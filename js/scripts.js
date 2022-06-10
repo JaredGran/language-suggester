@@ -1,17 +1,15 @@
 $(document).ready(function() {
-  $("form#language").submit(function(event) {
+  $("form#formlanguage").submit(function(event) {
     event.preventDefault();
-    const yes = parseInt(5)
-    const no = parseInt(0)
-    const result =add(yes + no)
-    if (result<= 10) {
-      $('#under10').show();
+    const drink = $("#beverage").val();
+    if (drink === "1") {
+      $('#coffee').show();
     }
-    else if (result === 15) {
-      $('#e15').show();
+    else if (drink === "2") {
+      $('#tea').show();
     }
-    else (result >= 20) {
-      $('#20').show();
+    else {
+      $('#kombucha').show();
     }
   });
 });
