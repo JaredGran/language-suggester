@@ -4,12 +4,15 @@ $(document).ready(function() {
     const drink = $("#beverage").val();
     if (drink === "1") {
       $('#coffee').show();
-    }
+      $('#tea').hide()
+      $('#kombucha').hide()}
     else if (drink === "2") {
       $('#tea').show();
-    }
+      $('#coffee').hide();
+      $('#kombucha').hide()}
     else {
       $('#kombucha').show();
-    }
+      $('#coffee').hide();
+      $('#tea').hide()}
   });
 });
